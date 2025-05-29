@@ -1,1 +1,6 @@
-//your JS code here. If required.
+function increment(){
+	let p = document.querySelector("p");
+	let num = parseInt(p.innerText);
+	alert(num);
+	p.innerText = num + 1;
+}
